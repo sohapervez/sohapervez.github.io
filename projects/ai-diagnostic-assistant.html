@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Diagnostic Assistant · Soha Pervez</title>
+  <meta name="description" content="Streamlit chatbot with RAG over a medical CSV — generates contextual follow-up questions and AI-powered differential diagnoses. Built from scratch in 24 hours." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/sections.css" />
+</head>
+<body class="project-page">
+
+  <nav class="site-nav scrolled" aria-label="Site navigation">
+    <a class="nav-logo" href="../index.html">← Soha Pervez</a>
+  </nav>
+
+  <main>
+    <article class="project-detail">
+      <a class="project-back" href="../index.html#engineering">← Back to Engineering</a>
+
+      <header class="project-detail-header">
+        <p class="section-label eng">RAG · Health Tech</p>
+        <h1>AI Diagnostic Assistant</h1>
+        <div class="project-detail-chips">
+          <span class="chip">Python</span>
+          <span class="chip">Streamlit</span>
+          <span class="chip">LangChain</span>
+          <span class="chip">ChromaDB</span>
+          <span class="chip">OpenAI API</span>
+          <span class="chip">Pandas</span>
+        </div>
+      </header>
+
+      <div class="project-demo-embed">
+        <iframe
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7483451068840992769?compact=1"
+          frameborder="0"
+          allowfullscreen
+          allow="autoplay; encrypted-media; fullscreen"
+          title="AI Diagnostic Assistant demo video"></iframe>
+      </div>
+
+      <div class="disclaimer">
+        <strong>Educational purposes only.</strong> This tool is not a substitute for
+        professional medical advice, diagnosis, or treatment. Always consult a qualified
+        healthcare provider.
+      </div>
+
+      <section class="project-section">
+        <h2>The Problem</h2>
+        <p>
+          People often struggle to articulate symptoms clearly and don't know what follow-up
+          information a doctor would need. A structured, conversational tool that asks the
+          right questions could help users prepare for appointments and understand possible
+          causes — while being clear about its limitations.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>What I Built</h2>
+        <p>
+          A Streamlit chatbot built <strong>from scratch in 24 hours</strong>, with no prior
+          RAG experience. The app follows a structured diagnostic conversation flow:
+        </p>
+        <ul>
+          <li><strong>Symptom intake</strong> — user describes their primary complaint in free text</li>
+          <li><strong>RAG retrieval</strong> — LangChain queries a ChromaDB vector store built from a medical symptoms CSV knowledge base</li>
+          <li><strong>Sequential follow-up</strong> — the LLM generates 3–5 targeted follow-up questions, presented one at a time</li>
+          <li><strong>Differential diagnosis</strong> — after gathering responses, the model produces a likely diagnosis with a supporting explanation</li>
+          <li><strong>Session reset</strong> — users can start a fresh consultation at any time</li>
+        </ul>
+        <p>
+          All LLM calls go through the OpenAI API via LangChain; the knowledge base is built
+          from a local <code>symptoms_data.csv</code> on first run.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>The Result</h2>
+        <p>
+          A fully working symptom-assessment chatbot delivered in one day, starting from
+          zero knowledge of RAG architecture. The 24-hour timeline demonstrated that a
+          functional, grounded LLM application can be built quickly once the underlying
+          retrieval pipeline is understood — a proof of concept in rapid AI prototyping.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>Links</h2>
+        <div class="project-links-row">
+          <a class="project-link" href="https://github.com/sohapervez/AI-Diagnostic-Assistant" target="_blank" rel="noopener noreferrer">
+            View on GitHub ↗
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Soha Pervez</p>
+  </footer>
+
+</body>
+</html>

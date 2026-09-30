@@ -1,0 +1,25 @@
+{
+  "slug": "titanic-recreation",
+  "title": "Titanic, Reimagined",
+  "type": "video",
+  "aspect": "9:16",
+  "tools": [
+    "NoteGPT",
+    "OpenArt",
+    "GPT Image 2.5 (characters)",
+    "Seedance 2.5 (video)",
+    "Seedance 2.0 Mini (video)",
+    "CapCut (editing)"
+  ],
+  "description": "What if you could step into your favourite movie? I recreated iconic Titanic moments starring my AI avatar. Some love stories are written. Others you create.",
+  "process": "Characters generated with GPT Image 2.5 in NoteGPT; scenes animated with Seedance 2.5 in OpenArt and Seedance 2.0 Mini in NoteGPT; edited in CapCut.",
+  "poster": "assets/creative/titanic-recreation/titanic-recreation-poster.webp",
+  "posterAlt": "assets/creative/titanic-recreation/titanic-recreation-poster-alt.webp",
+  "preview": {
+    "webm": "assets/creative/titanic-recreation/titanic-recreation-preview.webm",
+    "mp4": "assets/creative/titanic-recreation/titanic-recreation-preview.mp4"
+  },
+  "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510731961510809600/",
+  "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7510731961510809600?compact=1",
+  "linkedinShortUrl": "https://lnkd.in/p/dh2Tyi93"
+}

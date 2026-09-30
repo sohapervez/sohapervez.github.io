@@ -1,0 +1,24 @@
+{
+  "slug": "invisible-city",
+  "title": "Invisible City",
+  "type": "video",
+  "aspect": "9:16",
+  "tools": [
+    "NoteGPT",
+    "GPT Image 2.5 (images)",
+    "Gemini Omni (video)",
+    "Seedance 2.0 Mini (video)",
+    "CapCut (editing)"
+  ],
+  "description": "A dark, dreamlike short: a black butterfly glides down a candlelit hallway and leads to a mysterious woman.",
+  "process": "Images generated with GPT Image 2.5 and animated with Gemini Omni and Seedance 2.0 Mini in NoteGPT; clips stitched and edited in CapCut.",
+  "poster": "assets/creative/invisible-city/invisible-city-poster.webp",
+  "posterAlt": "assets/creative/invisible-city/invisible-city-poster-alt.webp",
+  "preview": {
+    "webm": "assets/creative/invisible-city/invisible-city-preview.webm",
+    "mp4": "assets/creative/invisible-city/invisible-city-preview.mp4"
+  },
+  "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7505740231451619328/",
+  "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7505740231451619328?compact=1",
+  "linkedinShortUrl": "https://lnkd.in/p/df58FWwm"
+}

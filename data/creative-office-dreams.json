@@ -1,0 +1,18 @@
+{
+  "slug": "office-dreams",
+  "title": "Office Dreams",
+  "type": "video",
+  "aspect": "9:16",
+  "tools": ["NoteGPT", "GPT Image 2.5 (images)", "Gemini Omni (video)", "CapCut (editing)"],
+  "description": "Ever drifted off mid-workday? My AI avatar escapes to the sea cliffs on her laptop wallpaper, until the office phone pulls her back to reality.",
+  "process": "Images generated with GPT Image 2.5 and animated with Gemini Omni in NoteGPT; clips stitched and edited in CapCut.",
+  "poster": "assets/creative/office-dreams/office-dreams-poster.webp",
+  "posterAlt": "assets/creative/office-dreams/office-dreams-poster-alt.webp",
+  "preview": {
+    "webm": "assets/creative/office-dreams/office-dreams-preview.webm",
+    "mp4": "assets/creative/office-dreams/office-dreams-preview.mp4"
+  },
+  "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498411244153102337/",
+  "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7498411244153102337?compact=1",
+  "linkedinShortUrl": "https://lnkd.in/p/dpSpAJ99"
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EVIL-AI RAG · Soha Pervez</title>
+  <meta name="description" content="RAG system for querying AI-safety research papers with cited, grounded answers. Hybrid vector + BM25 retrieval, cross-encoder reranking, deployed on OpenShift." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/sections.css" />
+</head>
+<body class="project-page">
+
+  <nav class="site-nav scrolled" aria-label="Site navigation">
+    <a class="nav-logo" href="../index.html">← Soha Pervez</a>
+  </nav>
+
+  <main>
+    <article class="project-detail">
+      <a class="project-back" href="../index.html#engineering">← Back to Engineering</a>
+
+      <header class="project-detail-header">
+        <p class="section-label eng">AI Safety · RAG</p>
+        <h1>EVIL-AI RAG</h1>
+        <div class="project-detail-chips">
+          <span class="chip">Python</span>
+          <span class="chip">LlamaIndex</span>
+          <span class="chip">ChromaDB</span>
+          <span class="chip">PyMuPDF</span>
+          <span class="chip">BGE Embeddings</span>
+          <span class="chip">BM25</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">Streamlit</span>
+          <span class="chip">Docker</span>
+          <span class="chip">OpenShift</span>
+          <span class="chip">Ollama / OpenAI / Anthropic / Groq</span>
+        </div>
+      </header>
+
+      <section class="project-section">
+        <h2>The Problem</h2>
+        <p>
+          AI-safety researchers work with large corpora of dense, technical PDFs. Standard
+          keyword search returns too many irrelevant results; generic chatbots hallucinate
+          citations and fabricate details. There was no reliable way to ask a question
+          across a library of papers and get a grounded, cited answer.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>What I Built</h2>
+        <p>
+          A full Retrieval-Augmented Generation pipeline that turns a folder of research PDFs
+          into a queryable knowledge base:
+        </p>
+        <ul>
+          <li><strong>PDF ingestion</strong> — PyMuPDF with layout-aware extraction</li>
+          <li><strong>Parent-child chunking</strong> — section detection preserves context hierarchy</li>
+          <li><strong>Embeddings</strong> — BAAI/bge-base-en-v1.5 (768-dimensional) into two ChromaDB collections</li>
+          <li><strong>Hybrid retrieval</strong> — vector similarity + BM25 keyword matching combined</li>
+          <li><strong>Cross-encoder reranking</strong> — refines the candidate list before the LLM sees it</li>
+          <li><strong>Multi-provider LLM</strong> — works with Ollama, OpenAI, Anthropic, and Groq via env config</li>
+          <li><strong>API layer</strong> — FastAPI with authenticated endpoints for chat streaming, paper management, analytics, and CSV export</li>
+          <li><strong>UI</strong> — Streamlit front-end; also integrated as a chatbot on the EVIL AI website</li>
+          <li><strong>Deployment</strong> — Docker Compose for local dev; Kubernetes manifests for OpenShift / Rahti</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>The Result</h2>
+        <p class="result-highlight">Cited, grounded answers across large paper collections.</p>
+        <p>
+          The system is deployed on OpenShift and integrated directly into the EVIL AI website
+          as a live chatbot. Users upload their own PDFs or query the existing corpus and
+          receive answers with source citations — no hallucinated references.
+          Fine-grained retrieval parameters and chunking strategies are tunable via
+          environment variables without redeployment.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>Links</h2>
+        <div class="project-links-row">
+          <a class="project-link" href="https://github.com/sohapervez/EVIL-AI-RAG" target="_blank" rel="noopener noreferrer">
+            View on GitHub ↗
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Soha Pervez</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "dream-job",
+    "title": "Dream Job: A Short Film",
+    "type": "video",
+    "aspect": "16:9",
+    "featured": true,
+    "tools": ["ChatGPT (prompts)", "NoteGPT (video)", "CapCut (editing)"],
+    "description": "My own story, told with AI: the dream of landing the perfect job, the reality of rejections and late-night applications, and the belief that every rejection is preparation.",
+    "poster": "assets/creative/dream-job/dream-job-poster.webp",
+    "posterAlt": "assets/creative/dream-job/dream-job-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/dream-job/dream-job-preview.webm",
+      "mp4": "assets/creative/dream-job/dream-job-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7470462833340743682/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7470462833340743682?compact=1",
+    "process": "Written, planned and directed by me. Prompts crafted with ChatGPT, scenes generated in NoteGPT, and the short clips combined into one film in CapCut."
+  },
+  {
+    "slug": "tokyo-night",
+    "title": "Tokyo Night — Cinematic AI Film",
+    "type": "video",
+    "aspect": "9:16",
+    "tools": ["NoteGPT", "GPT Image 2.5 (images)", "Gemini Omni (video)", "CapCut (editing)"],
+    "description": "My first AI cinematic film: a winter night in Tokyo, made entirely with AI image and video generation.",
+    "poster": "assets/creative/tokyo-night/tokyo-night-poster.webp",
+    "posterAlt": "assets/creative/tokyo-night/tokyo-night-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/tokyo-night/tokyo-night-preview.webm",
+      "mp4": "assets/creative/tokyo-night/tokyo-night-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7496560323563503616/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7496560323563503616?compact=1",
+    "process": "Images generated with GPT Image 2.5 and animated with Gemini Omni in NoteGPT; clips stitched and edited in CapCut."
+  },
+  {
+    "slug": "invisible-city",
+    "title": "Invisible City",
+    "type": "video",
+    "aspect": "9:16",
+    "tools": ["NoteGPT", "GPT Image 2.5 (images)", "Gemini Omni (video)", "Seedance 2.0 Mini (video)", "CapCut (editing)"],
+    "description": "A dark, dreamlike short: a black butterfly glides down a candlelit hallway and leads to a mysterious woman.",
+    "poster": "assets/creative/invisible-city/invisible-city-poster.webp",
+    "posterAlt": "assets/creative/invisible-city/invisible-city-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/invisible-city/invisible-city-preview.webm",
+      "mp4": "assets/creative/invisible-city/invisible-city-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7505740231451619328/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7505740231451619328?compact=1",
+    "process": "Images generated with GPT Image 2.5 and animated with Gemini Omni and Seedance 2.0 Mini in NoteGPT; clips stitched and edited in CapCut."
+  },
+  {
+    "slug": "ai-diagnostic-assistant-explainer",
+    "title": "AI twin explainer",
+    "type": "video",
+    "aspect": "9:16",
+    "tools": ["NoteGPT", "GPT Image 2.5 (avatar)", "Gemini Omni (video)", "CapCut (editing)"],
+    "description": "An AI-generated version of me explains how I built a RAG-powered health assistant.",
+    "poster": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-poster.webp",
+    "posterAlt": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-preview.webm",
+      "mp4": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483451068840992769/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7483451068840992769?compact=1",
+    "process": "Avatar generated with GPT Image 2.5, brought to life with Gemini Omni in NoteGPT; scenes, diagrams and captions edited in CapCut."
+  },
+  {
+    "slug": "office-dreams",
+    "title": "Office Dreams",
+    "type": "video",
+    "aspect": "9:16",
+    "tools": ["NoteGPT", "GPT Image 2.5 (images)", "Gemini Omni (video)", "CapCut (editing)"],
+    "description": "Ever drifted off mid-workday? My AI avatar escapes to the sea cliffs on her laptop wallpaper, until the office phone pulls her back to reality.",
+    "poster": "assets/creative/office-dreams/office-dreams-poster.webp",
+    "posterAlt": "assets/creative/office-dreams/office-dreams-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/office-dreams/office-dreams-preview.webm",
+      "mp4": "assets/creative/office-dreams/office-dreams-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498411244153102337/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7498411244153102337?compact=1",
+    "process": "Images generated with GPT Image 2.5 and animated with Gemini Omni in NoteGPT; clips stitched and edited in CapCut."
+  },
+  {
+    "slug": "tea-addiction",
+    "title": "Chai, No Matter What",
+    "type": "video",
+    "aspect": "9:16",
+    "tools": ["ChatGPT (script & prompts)", "Nano Banana (character images)", "Google Flow (video)"],
+    "description": "A relatable take on Asian tea culture: a sassy teacup character proves there's no occasion too big, too small or too hot for one more cup of chai.",
+    "poster": "assets/creative/tea-addiction/tea-addiction-poster.webp",
+    "posterAlt": "assets/creative/tea-addiction/tea-addiction-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/tea-addiction/tea-addiction-preview.webm",
+      "mp4": "assets/creative/tea-addiction/tea-addiction-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463251446659104768/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7463251446659104768?compact=1",
+    "process": "Script and prompts written with ChatGPT, teacup character designed with Nano Banana, and animated in Google Flow."
+  },
+  {
+    "slug": "titanic-recreation",
+    "title": "Titanic, Reimagined",
+    "type": "video",
+    "aspect": "9:16",
+    "tools": ["NoteGPT", "OpenArt", "GPT Image 2.5 (characters)", "Seedance 2.5 (video)", "Seedance 2.0 Mini (video)", "CapCut (editing)"],
+    "description": "What if you could step into your favourite movie? I recreated iconic Titanic moments starring my AI avatar.",
+    "poster": "assets/creative/titanic-recreation/titanic-recreation-poster.webp",
+    "posterAlt": "assets/creative/titanic-recreation/titanic-recreation-poster-alt.webp",
+    "preview": {
+      "webm": "assets/creative/titanic-recreation/titanic-recreation-preview.webm",
+      "mp4": "assets/creative/titanic-recreation/titanic-recreation-preview.mp4"
+    },
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510731961510809600/",
+    "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7510731961510809600?compact=1",
+    "process": "Characters generated with GPT Image 2.5 in NoteGPT; scenes animated with Seedance 2.5 in OpenArt and Seedance 2.0 Mini in NoteGPT; edited in CapCut."
+  }
+]

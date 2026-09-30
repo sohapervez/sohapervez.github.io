@@ -1,0 +1,36 @@
+{
+  "slug": "ai-diagnostic-assistant-explainer",
+  "title": "AI Diagnostic Assistant: Explained by My AI Twin",
+  "type": "video",
+  "aspect": "9:16",
+  "sections": [
+    "engineering",
+    "creative"
+  ],
+  "relatedProject": "ai-diagnostic-assistant",
+  "description": "An AI-generated version of me explains how I built a RAG-powered health assistant: user symptoms → ChromaDB vector store → LLaMA 2 → diagnosis, with smart follow-up questions.",
+  "stack": [
+    "Python",
+    "LangChain",
+    "ChromaDB",
+    "LLaMA 2 (Ollama)",
+    "Streamlit"
+  ],
+  "tools": [
+    "NoteGPT",
+    "GPT Image 2.5 (avatar)",
+    "Gemini Omni (video)",
+    "CapCut (editing)"
+  ],
+  "process": "Avatar generated with GPT Image 2.5, brought to life with Gemini Omni in NoteGPT; scenes, diagrams and captions edited in CapCut.",
+  "poster": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-poster.webp",
+  "posterAlt": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-poster-alt.webp",
+  "preview": {
+    "webm": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-preview.webm",
+    "mp4": "assets/creative/ai-diagnostic-assistant/ai-diagnostic-assistant-preview.mp4"
+  },
+  "githubUrl": "https://github.com/sohapervez/AI-Diagnostic-Assistant",
+  "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483451068840992769/",
+  "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7483451068840992769?compact=1",
+  "linkedinShortUrl": "https://lnkd.in/p/drtauVEe"
+}

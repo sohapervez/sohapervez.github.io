@@ -1,0 +1,18 @@
+{
+  "slug": "tea-addiction",
+  "title": "Chai, No Matter What",
+  "type": "video",
+  "aspect": "9:16",
+  "tools": ["ChatGPT (script & prompts)", "Nano Banana (character images)", "Google Flow (video)"],
+  "description": "A relatable take on Asian tea culture: a sassy teacup character proves there's no occasion too big, too small or too hot for one more cup of chai.",
+  "process": "Script and prompts written with ChatGPT, teacup character designed with Nano Banana, and animated in Google Flow.",
+  "poster": "assets/creative/tea-addiction/tea-addiction-poster.webp",
+  "posterAlt": "assets/creative/tea-addiction/tea-addiction-poster-alt.webp",
+  "preview": {
+    "webm": "assets/creative/tea-addiction/tea-addiction-preview.webm",
+    "mp4": "assets/creative/tea-addiction/tea-addiction-preview.mp4"
+  },
+  "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463251446659104768/",
+  "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7463251446659104768?compact=1",
+  "linkedinShortUrl": "https://lnkd.in/p/d5GBDmSz"
+}

@@ -1,0 +1,17 @@
+{
+  "project": "evil-ai-rag",
+  "section": "engineering",
+  "aspect": "16:9",
+  "poster": "assets/engineering/evil-ai-rag/evil-ai-rag-poster.webp",
+  "posterAlt": "assets/engineering/evil-ai-rag/evil-ai-rag-poster-alt.webp",
+  "preview": {
+    "webm": "assets/engineering/evil-ai-rag/evil-ai-rag-preview.webm",
+    "mp4": "assets/engineering/evil-ai-rag/evil-ai-rag-preview.mp4"
+  },
+  "fullVideo": {
+    "type": "github",
+    "url": "https://github.com/sohapervez/EVIL-AI-RAG",
+    "label": "View on GitHub ↗"
+  },
+  "previewCaption": "Ask a question → answer grounded in the research papers, with 15 cited sources."
+}

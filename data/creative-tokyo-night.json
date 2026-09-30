@@ -1,0 +1,23 @@
+{
+  "slug": "tokyo-night",
+  "title": "Tokyo Night — Cinematic AI Film",
+  "type": "video",
+  "aspect": "9:16",
+  "tools": [
+    "NoteGPT",
+    "GPT Image 2.5 (images)",
+    "Gemini Omni (video)",
+    "CapCut (editing)"
+  ],
+  "description": "My first AI cinematic film: a winter night in Tokyo, made entirely with AI image and video generation.",
+  "poster": "assets/creative/tokyo-night/tokyo-night-poster.webp",
+  "posterAlt": "assets/creative/tokyo-night/tokyo-night-poster-alt.webp",
+  "preview": {
+    "webm": "assets/creative/tokyo-night/tokyo-night-preview.webm",
+    "mp4": "assets/creative/tokyo-night/tokyo-night-preview.mp4"
+  },
+  "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7496560323563503616/",
+  "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7496560323563503616?compact=1",
+  "linkedinShortUrl": "https://lnkd.in/p/dXjns6ic",
+  "process": "Images generated with GPT Image 2.5 and animated with Gemini Omni in NoteGPT; clips stitched and edited in CapCut."
+}

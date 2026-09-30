@@ -1,0 +1,12 @@
+{
+  "project": "ai-desktop-pet",
+  "section": "engineering",
+  "aspect": "16:9",
+  "poster": "assets/engineering/ai-desktop-pet/ai-desktop-pet-poster.webp",
+  "posterAlt": "assets/engineering/ai-desktop-pet/ai-desktop-pet-poster-alt.webp",
+  "preview": {
+    "webm": "assets/engineering/ai-desktop-pet/ai-desktop-pet-preview.webm",
+    "mp4": "assets/engineering/ai-desktop-pet/ai-desktop-pet-preview.mp4"
+  },
+  "previewCaption": "The pet roams your screen with friendly wellness nudges: water, breaks, posture."
+}

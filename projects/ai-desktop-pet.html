@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Desktop Pet · Soha Pervez</title>
+  <meta name="description" content="Cross-platform desktop companion built with Tauri (Rust + TypeScript) — animated pet, smart wellness reminders, and offline or AI-powered chat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/sections.css" />
+</head>
+<body class="project-page">
+
+  <nav class="site-nav scrolled" aria-label="Site navigation">
+    <a class="nav-logo" href="../index.html">← Soha Pervez</a>
+  </nav>
+
+  <main>
+    <article class="project-detail">
+      <a class="project-back" href="../index.html#engineering">← Back to Engineering</a>
+
+      <header class="project-detail-header">
+        <p class="section-label eng">Desktop App · AI Chat</p>
+        <h1>AI Desktop Pet</h1>
+        <div class="project-detail-chips">
+          <span class="chip">Tauri</span>
+          <span class="chip">Rust</span>
+          <span class="chip">TypeScript</span>
+          <span class="chip">Node.js</span>
+        </div>
+      </header>
+
+      <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; background: #0b0b0c;">
+        <video src="../assets/video/AI_Desktop_Pet.mp4" controls muted playsinline
+               style="width: 100%; display: block; max-height: 520px; object-fit: contain;">
+        </video>
+      </div>
+
+      <section class="project-section">
+        <h2>The Problem</h2>
+        <p>
+          Desktop companion apps were either too distracting (always on top, blocking work)
+          or too dumb (no AI, same static messages). There was no companion that stayed
+          out of the way, sent genuinely useful wellness nudges, and could hold a real
+          conversation — all without requiring an internet connection or an account.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>What I Built</h2>
+        <p>
+          A cross-platform desktop pet built with Tauri — a Rust + TypeScript framework
+          that bundles apps at near-native performance without shipping a full browser
+          engine. The pet lives at the edge of your screen and is out of the way until
+          you need it:
+        </p>
+        <ul>
+          <li><strong>Click-through transparency</strong> — the pet window lets all mouse events pass through to the app behind it, so it never blocks work. The polling loop runs at ~60fps.</li>
+          <li><strong>Summon button</strong> — a draggable pink button on the screen edge that slides the pet in and out. Drag it to wherever works best.</li>
+          <li><strong>Smart wellness reminders</strong> — Rust-backed scheduler sends timed nudges for water, breaks, and stretching. Reminders can be paused (30 min / 1 hr / until tomorrow) from the system tray.</li>
+          <li><strong>Offline chat mode</strong> — the pet understands greetings, mood signals, and reminder keywords with no internet needed. Warm and short replies by default.</li>
+          <li><strong>AI chat mode</strong> — optional OpenAI integration for natural conversation. The API key is stored only on the device, never sent elsewhere. The personality prompt is user-editable via <code>config/personality.json</code>.</li>
+          <li><strong>Custom sprites</strong> — animated frame sequences (idle, walk, blink, enter, leave) loaded from <code>assets/sprites/</code>. Ships with a programmatic placeholder character.</li>
+          <li><strong>System tray</strong> — full control from the tray: settings, pause, resume, reset pet position, quit.</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>Technical Highlights</h2>
+        <ul>
+          <li>Transparent, always-on-top windows use a private macOS API — works on macOS 10.15+ but cannot be App Store distributed</li>
+          <li>Rust backend handles all Tauri commands, the visit/water scheduler, tray menu, and window creation</li>
+          <li>TypeScript windows (pet, summon button, chat, settings) communicate via Tauri IPC</li>
+          <li>Builds to a <code>.dmg</code> (macOS) or <code>.exe</code> installer (Windows) with <code>npm run tauri build</code></li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>The Result</h2>
+        <p>
+          A fully working, installable desktop companion that runs at native performance —
+          no Electron, no bundled Chromium, no noticeable CPU overhead during normal use.
+          The offline chat makes it usable without any accounts or API keys, while the
+          OpenAI integration unlocks richer conversations for those who want it.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>Links</h2>
+        <!-- TODO — add GitHub repo link if public -->
+        <span class="private-note">TODO — add GitHub link</span>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Soha Pervez</p>
+  </footer>
+
+</body>
+</html>

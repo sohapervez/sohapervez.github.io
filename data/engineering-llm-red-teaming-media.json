@@ -1,0 +1,17 @@
+{
+  "project": "llm-red-teaming",
+  "section": "engineering",
+  "aspect": "16:9",
+  "poster": "assets/engineering/llm-red-teaming/llm-red-teaming-poster.webp",
+  "posterAlt": "assets/engineering/llm-red-teaming/llm-red-teaming-poster-alt.webp",
+  "preview": {
+    "webm": "assets/engineering/llm-red-teaming/llm-red-teaming-preview.webm",
+    "mp4": "assets/engineering/llm-red-teaming/llm-red-teaming-preview.mp4"
+  },
+  "fullVideo": {
+    "type": "github",
+    "url": "https://github.com/sohapervez/LLM-jailbreaking",
+    "label": "Watch demo with voiceover on GitHub ↗"
+  },
+  "previewCaption": "Automated workflow probing 4 LLMs → summary report of which models were jailbroken and on which attempt."
+}
